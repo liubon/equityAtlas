@@ -1,0 +1,40 @@
+
+@import '~@/assets/styles/variables.less';
+    .container{
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        padding-top:15px;
+        overflow:hidden;
+        background: #fff;
+        .form_input{
+            width: @width;
+        }
+    }
+  svg {
+    cursor: all-scroll;
+}
+ 
+.centralText {
+    font: 23spx sans-serif;
+    fill: #222;
+}
+ 
+.downwardNode text,
+.upwardNode text {
+    font: 10px sans-serif;
+}
+ 
+.downwardLink {
+    fill: none;
+    stroke: #8b4513;
+    stroke-width: 1px;
+    opacity: 0.5;
+}
+ 
+.upwardLink {
+    fill: none;
+    stroke: #37592b;
+    stroke-width: 1px;
+    opacity: 0.5;
+}
